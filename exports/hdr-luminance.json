@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-09-12T12:00:48.860Z",
+  "method": "Four decoded frames per scene; numeric luminance, not a physical display measurement or exhaustive MaxCLL scan.",
+  "measurements": [
+    {
+      "name": "01-ultraviolet",
+      "frames": [
+        {
+          "time": 0,
+          "peakLuminanceNits": 218.81819814920425,
+          "averageLuminanceNits": 3.3365828403956184
+        },
+        {
+          "time": 3,
+          "peakLuminanceNits": 251.9195811653137,
+          "averageLuminanceNits": 3.3557816065366586
+        },
+        {
+          "time": 6,
+          "peakLuminanceNits": 249.0292593026161,
+          "averageLuminanceNits": 3.3576726231738063
+        },
+        {
+          "time": 9,
+          "peakLuminanceNits": 212.85235885143283,
+          "averageLuminanceNits": 3.260400133287796
+        }
+      ]
+    },
+    {
+      "name": "02-blue-starfall",
+      "frames": [
+        {
+          "time": 0,
+          "peakLuminanceNits": 262.54079220294955,
+          "averageLuminanceNits": 3.0389471383071736
+        },
+        {
+          "time": 3,
+          "peakLuminanceNits": 284.13585149049754,
+          "averageLuminanceNits": 3.2243451169820654
+        },
+        {
+          "time": 6,
+          "peakLuminanceNits": 300.257136862278,
+          "averageLuminanceNits": 3.351953946629967
+        },
+        {
+          "time": 9,
+          "peakLuminanceNits": 291.6614193165302,
+          "averageLuminanceNits": 3.1488084159449192
+        }
+      ]
+    },
+    {
+      "name": "03-heartbeat",
+      "frames": [
+        {
+          "time": 0,
+          "peakLuminanceNits": 185.0344102430344,
+          "averageLuminanceNits": 1.9206202115030697
+        },
+        {
+          "time": 3,
+          "peakLuminanceNits": 172.70729682445526,
+          "averageLuminanceNits": 1.901063102202166
+        },
+        {
+          "time": 6,
+          "peakLuminanceNits": 182.14899576187136,
+          "averageLuminanceNits": 2.000486639831883
+        },
+        {
+          "time": 9,
+          "peakLuminanceNits": 197.3959978079796,
+          "averageLuminanceNits": 2.018972711414178
+        }
+      ]
+    },
+    {
+      "name": "04-nacre",
+      "frames": [
+        {
+          "time": 0,
+          "peakLuminanceNits": 259.91619126796724,
+          "averageLuminanceNits": 13.95960240467359
+        },
+        {
+          "time": 3,
+          "peakLuminanceNits": 251.58313867568972,
+          "averageLuminanceNits": 13.569110164763261
+        },
+        {
+          "time": 6,
+          "peakLuminanceNits": 221.0533087801933,
+          "averageLuminanceNits": 13.573264659546888
+        },
+        {
+          "time": 9,
+          "peakLuminanceNits": 240.14099244356157,
+          "averageLuminanceNits": 13.490745943309095
+        }
+      ]
+    },
+    {
+      "name": "05-orrery",
+      "frames": [
+        {
+          "time": 0,
+          "peakLuminanceNits": 457.6217497873306,
+          "averageLuminanceNits": 3.634593219517699
+        },
+        {
+          "time": 3,
+          "peakLuminanceNits": 402.56323821783064,
+          "averageLuminanceNits": 3.636557170351672
+        },
+        {
+          "time": 6,
+          "peakLuminanceNits": 410.815985994339,
+          "averageLuminanceNits": 3.641758856197205
+        },
+        {
+          "time": 9,
+          "peakLuminanceNits": 430.7526375985145,
+          "averageLuminanceNits": 3.6244918065908016
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Просмотр фона</title><style>
+:root{color-scheme:dark;font-family:'Segoe UI',sans-serif;background:#080e13;color:#e1ecec}body{margin:0;padding:24px}main{max-width:1400px;margin:auto}a{color:#acd4d9}header{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:22px}h1{font-size:24px;font-weight:400}video{display:block;width:100%;max-height:75vh;background:black;aspect-ratio:16/9}button{background:#16313b;color:#e1ecec;border:1px solid #537079;padding:10px 18px;cursor:pointer}button[aria-pressed=true]{background:#c1dfdf;color:#10262c}button:focus-visible,a:focus-visible{outline:2px solid #f0ddaf;outline-offset:4px}p{color:#a7bbc3;line-height:1.6}.formats{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}@media(max-width:600px){body{padding:14px}header{display:block}}</style></head>
+<body><main><header><h1 id="title">Просмотр фона</h1><a href="index.html">← Все фоны</a></header><video controls loop playsinline preload="metadata" aria-label="Зацикленное видео фона"></video><div class="formats"><button type="button" data-mode="sdr" aria-pressed="true">SDR · обычный экран</button><button type="button" data-mode="hdr" aria-pressed="false">HDR10 · HDR-экран</button></div><p id="status" role="status">Включён совместимый SDR-вариант. Для HDR выберите соответствующий режим и включите HDR на устройстве.</p><p><a id="download" download>Скачать выбранное видео ↓</a></p></main>
+<script>
+const names={'01-ultraviolet':'Ultraviolet','02-blue-starfall':'Blue starfall','03-heartbeat':'Heartbeat','04-nacre':'Nacre','05-orrery':'Orrery'};
+const requested=new URLSearchParams(location.search).get('scene');
+const name=Object.hasOwn(names,requested)?requested:'01-ultraviolet';
+const video=document.querySelector('video'),status=document.querySelector('#status');
+let mode='sdr';
+document.querySelector('#title').textContent=names[name];document.title=names[name]+' · Видео';
+video.poster='exports/'+name+'.jpg';
+function setMode(next){
+ mode=next;const src='exports/'+name+(mode==='hdr'?'-hdr10':'')+'.mp4';
+ video.src=src;document.querySelector('#download').href=src;
+ document.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));
+ status.textContent=mode==='hdr'?'HDR10 выбран. Нужны поддержка HEVC Main10, HDR-экран и включённый HDR-режим.':'SDR выбран. Этот вариант подходит для обычного экрана.';
+}
+document.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
+video.addEventListener('error',()=>{
+ if(mode==='hdr'){setMode('sdr');status.textContent='HDR не удалось открыть в этом браузере. Включён SDR; HDR-файл можно скачать из галереи.';}
+ else status.textContent='Видео не удалось открыть. Скачайте файл и откройте его в видеопроигрывателе.';
+});
+setMode('sdr');
+</script></body></html>

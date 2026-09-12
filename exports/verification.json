@@ -1,0 +1,368 @@
+{
+  "checkedAt": "2026-09-12T12:00:39.619Z",
+  "scenes": [
+    {
+      "name": "01-ultraviolet",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 0.04180718315972222,
+        "max": 51
+      },
+      "normalStep": {
+        "mean": 0.04263382523148148,
+        "max": 63
+      },
+      "motion": {
+        "mean": 5.218881022135417,
+        "max": 210
+      },
+      "particles": 100,
+      "minGap": 32.49038437392997,
+      "geometryFrames": 720,
+      "videos": [
+        {
+          "file": "exports/01-ultraviolet.mp4",
+          "codec": "h264",
+          "profile": "High",
+          "pixelFormat": "yuv420p",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt709",
+          "transfer": "bt709",
+          "bytes": 6839428
+        },
+        {
+          "file": "exports/01-ultraviolet-hdr10.mp4",
+          "codec": "hevc",
+          "profile": "Main 10",
+          "pixelFormat": "yuv420p10le",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt2020",
+          "transfer": "smpte2084",
+          "bytes": 2181075,
+          "metadata": {
+            "mastering": {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "35400/50000",
+              "red_y": "14600/50000",
+              "green_x": "8500/50000",
+              "green_y": "39850/50000",
+              "blue_x": "6550/50000",
+              "blue_y": "2300/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "6000000/10000"
+            },
+            "light": {
+              "side_data_type": "Content light level metadata",
+              "max_content": 600,
+              "max_average": 200
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "02-blue-starfall",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 1.4096214916087964,
+        "max": 163
+      },
+      "normalStep": {
+        "mean": 1.4098775679976852,
+        "max": 163
+      },
+      "motion": {
+        "mean": 7.06208251953125,
+        "max": 208
+      },
+      "particles": 94,
+      "minGap": 37.74703595478957,
+      "geometryFrames": 720,
+      "videos": [
+        {
+          "file": "exports/02-blue-starfall.mp4",
+          "codec": "h264",
+          "profile": "High",
+          "pixelFormat": "yuv420p",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt709",
+          "transfer": "bt709",
+          "bytes": 9646209
+        },
+        {
+          "file": "exports/02-blue-starfall-hdr10.mp4",
+          "codec": "hevc",
+          "profile": "Main 10",
+          "pixelFormat": "yuv420p10le",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt2020",
+          "transfer": "smpte2084",
+          "bytes": 2946520,
+          "metadata": {
+            "mastering": {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "35400/50000",
+              "red_y": "14600/50000",
+              "green_x": "8500/50000",
+              "green_y": "39850/50000",
+              "blue_x": "6550/50000",
+              "blue_y": "2300/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "6000000/10000"
+            },
+            "light": {
+              "side_data_type": "Content light level metadata",
+              "max_content": 600,
+              "max_average": 200
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "03-heartbeat",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 1.4227971281828704,
+        "max": 172
+      },
+      "normalStep": {
+        "mean": 1.4220628978587964,
+        "max": 168
+      },
+      "motion": {
+        "mean": 6.565537923177083,
+        "max": 211
+      },
+      "particles": 75,
+      "minGap": 34.44849110278791,
+      "geometryFrames": 720,
+      "videos": [
+        {
+          "file": "exports/03-heartbeat.mp4",
+          "codec": "h264",
+          "profile": "High",
+          "pixelFormat": "yuv420p",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt709",
+          "transfer": "bt709",
+          "bytes": 8929587
+        },
+        {
+          "file": "exports/03-heartbeat-hdr10.mp4",
+          "codec": "hevc",
+          "profile": "Main 10",
+          "pixelFormat": "yuv420p10le",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt2020",
+          "transfer": "smpte2084",
+          "bytes": 2261050,
+          "metadata": {
+            "mastering": {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "35400/50000",
+              "red_y": "14600/50000",
+              "green_x": "8500/50000",
+              "green_y": "39850/50000",
+              "blue_x": "6550/50000",
+              "blue_y": "2300/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "6000000/10000"
+            },
+            "light": {
+              "side_data_type": "Content light level metadata",
+              "max_content": 600,
+              "max_average": 200
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "04-nacre",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 1.068546730324074,
+        "max": 58
+      },
+      "normalStep": {
+        "mean": 1.0643208369502315,
+        "max": 56
+      },
+      "motion": {
+        "mean": 28.635994285300924,
+        "max": 206
+      },
+      "particles": 0,
+      "minGap": null,
+      "geometryFrames": 720,
+      "videos": [
+        {
+          "file": "exports/04-nacre.mp4",
+          "codec": "h264",
+          "profile": "High",
+          "pixelFormat": "yuv420p",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt709",
+          "transfer": "bt709",
+          "bytes": 16472253
+        },
+        {
+          "file": "exports/04-nacre-hdr10.mp4",
+          "codec": "hevc",
+          "profile": "Main 10",
+          "pixelFormat": "yuv420p10le",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt2020",
+          "transfer": "smpte2084",
+          "bytes": 3631110,
+          "metadata": {
+            "mastering": {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "35400/50000",
+              "red_y": "14600/50000",
+              "green_x": "8500/50000",
+              "green_y": "39850/50000",
+              "blue_x": "6550/50000",
+              "blue_y": "2300/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "6000000/10000"
+            },
+            "light": {
+              "side_data_type": "Content light level metadata",
+              "max_content": 600,
+              "max_average": 200
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "05-orrery",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 0.0594676830150463,
+        "max": 130
+      },
+      "normalStep": {
+        "mean": 0.05864700882523148,
+        "max": 131
+      },
+      "motion": {
+        "mean": 1.1856231915509259,
+        "max": 236
+      },
+      "particles": 0,
+      "minGap": null,
+      "geometryFrames": 720,
+      "videos": [
+        {
+          "file": "exports/05-orrery.mp4",
+          "codec": "h264",
+          "profile": "High",
+          "pixelFormat": "yuv420p",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt709",
+          "transfer": "bt709",
+          "bytes": 4786200
+        },
+        {
+          "file": "exports/05-orrery-hdr10.mp4",
+          "codec": "hevc",
+          "profile": "Main 10",
+          "pixelFormat": "yuv420p10le",
+          "fps": "60/1",
+          "frames": 720,
+          "duration": 12,
+          "primaries": "bt2020",
+          "transfer": "smpte2084",
+          "bytes": 1384687,
+          "metadata": {
+            "mastering": {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "35400/50000",
+              "red_y": "14600/50000",
+              "green_x": "8500/50000",
+              "green_y": "39850/50000",
+              "blue_x": "6550/50000",
+              "blue_y": "2300/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "6000000/10000"
+            },
+            "light": {
+              "side_data_type": "Content light level metadata",
+              "max_content": 600,
+              "max_average": 200
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "browser": {
+    "errors": [],
+    "mobileOverflow": false,
+    "galleryImages": "pass",
+    "reducedMotion": "all five pass",
+    "sdrPlayback": "pass",
+    "hdrErrorFallback": "pass"
+  }
+}

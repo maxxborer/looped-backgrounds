@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-09-12T11:46:22.787Z",
+  "scenes": [
+    {
+      "name": "01-ultraviolet",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 0.04180718315972222,
+        "max": 51
+      },
+      "normalStep": {
+        "mean": 0.04263382523148148,
+        "max": 63
+      },
+      "motion": {
+        "mean": 5.218881022135417,
+        "max": 210
+      },
+      "particles": 100,
+      "minGap": 32.49038437392997,
+      "geometryFrames": 720
+    },
+    {
+      "name": "02-blue-starfall",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 1.4096214916087964,
+        "max": 163
+      },
+      "normalStep": {
+        "mean": 1.4098775679976852,
+        "max": 163
+      },
+      "motion": {
+        "mean": 7.06208251953125,
+        "max": 208
+      },
+      "particles": 94,
+      "minGap": 37.74703595478957,
+      "geometryFrames": 720
+    },
+    {
+      "name": "03-heartbeat",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 1.4227971281828704,
+        "max": 172
+      },
+      "normalStep": {
+        "mean": 1.4220628978587964,
+        "max": 168
+      },
+      "motion": {
+        "mean": 6.565537923177083,
+        "max": 211
+      },
+      "particles": 75,
+      "minGap": 34.44849110278791,
+      "geometryFrames": 720
+    },
+    {
+      "name": "04-nacre",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 1.068546730324074,
+        "max": 58
+      },
+      "normalStep": {
+        "mean": 1.0643208369502315,
+        "max": 56
+      },
+      "motion": {
+        "mean": 28.635994285300924,
+        "max": 206
+      },
+      "particles": 0,
+      "minGap": null,
+      "geometryFrames": 720
+    },
+    {
+      "name": "05-orrery",
+      "width": 2560,
+      "height": 1440,
+      "duration": 12,
+      "loop": {
+        "mean": 0,
+        "max": 0
+      },
+      "seamStep": {
+        "mean": 0.0594676830150463,
+        "max": 130
+      },
+      "normalStep": {
+        "mean": 0.05864700882523148,
+        "max": 131
+      },
+      "motion": {
+        "mean": 1.1856231915509259,
+        "max": 236
+      },
+      "particles": 0,
+      "minGap": null,
+      "geometryFrames": 720
+    }
+  ],
+  "browser": {
+    "errors": [],
+    "mobileOverflow": false,
+    "galleryImages": "pass",
+    "reducedMotion": "all five pass"
+  }
+}

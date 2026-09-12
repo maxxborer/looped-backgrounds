@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-12T11:48:43.798Z",
+  "results": [
+    {
+      "label": "black",
+      "inputCode": 0,
+      "decodedNits": 8.334023533562751e-39
+    },
+    {
+      "label": "mid gray",
+      "inputCode": 128,
+      "decodedNits": 47.8122067003178
+    },
+    {
+      "label": "peak white",
+      "inputCode": 255,
+      "decodedNits": 599.9999092097053
+    }
+  ]
+}
